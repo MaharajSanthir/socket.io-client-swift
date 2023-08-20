@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         //.package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "4.0.0")),
-        .package(url: "https://github.com/daltoniam/Starscream", .exact(from: "4.0.4"))
+        .package(url: "https://github.com/daltoniam/Starscream", .exact("4.0.4"))
     ],
     targets: [
         .target(name: "SocketIO", dependencies: ["Starscream"]),
